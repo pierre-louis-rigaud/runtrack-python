@@ -1,4 +1,4 @@
-chaine = "Salut j suis un chain d caractrs"
+chaine = "j suis un chain d caractrs"
 count = 0
 
 if ("e" in chaine):
