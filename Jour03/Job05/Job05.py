@@ -1,9 +1,4 @@
-number1 = float(input('Enter first number: '))
-operator = input('Enter operator (+,-,*,/,%): ')
-number2 = float(input('Enter second number: '))
-
-
-def calculate(num1,num2,operator):
+def calculate(num1,operator, num2):
     if operator == '+':
         result = num1+num2
     elif operator == '-':
@@ -16,9 +11,10 @@ def calculate(num1,num2,operator):
         result =  num1%num2
     return result
 
-print(number1,operator,number2)
-result=calculate(number1,number2,operator)
-print('=',result)
+result=calculate(6, "*", 8)
+print(result)
+
+
 
     
 
