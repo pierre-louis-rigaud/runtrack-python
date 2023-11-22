@@ -1,4 +1,4 @@
-def calculate(num1,operator, num2):
+def calcule(num1,operator, num2):
     if operator == '+':
         print(num1+num2)
     elif operator == '-':
@@ -11,11 +11,11 @@ def calculate(num1,operator, num2):
         print(num1%num2)
     return print
 
-calculate(6, "+", 8)
-calculate(12, "-", 24)
-calculate(9, "*", 3)
-calculate(7, "/", 89)
-calculate(5, "%", 15)
+calcule(6, "+", 8)
+calcule(12, "-", 24)
+calcule(9, "*", 3)
+calcule(7, "/", 89)
+calcule(5, "%", 15)
 
 
 
