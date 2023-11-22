@@ -1,6 +1,7 @@
 def GetHello():
-    GH = "Hello la Plateforme"
-    return GH 
+    return "Hello la Plateforme"
     
+print(GetHello())
+print(GetHello())
 print(GetHello())
 
