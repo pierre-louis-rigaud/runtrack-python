@@ -5,4 +5,5 @@ def somme() :
         if i%2 == 0 :
             compteur += i
     return compteur
-print(somme())
+print("La somme des chiffre pair est de :", somme())
+
