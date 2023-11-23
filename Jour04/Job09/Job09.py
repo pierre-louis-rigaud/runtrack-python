@@ -1,6 +1,6 @@
 def liste():
     L = [8, 24, 27, 48, 2,16, 9, 102, 7, 84, 91]
-    print(max(L))
-    print(min(L))
+    print("La valeur max est:",max(L))
+    print("La valeur min est:",min(L))
     
 liste()

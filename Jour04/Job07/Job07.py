@@ -5,5 +5,5 @@ def liste():
         if i % 3 == 0:
             compteur += 1
     return compteur
-print(liste())
+print("Le nombre de multiple de 3 est :",liste())
 
